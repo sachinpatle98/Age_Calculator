@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+
+#main{
+    width: 40%;
+    min-width: 380px;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 40%;
+    padding: 50px 30px;
+}
+
+h2{
+    color: blanchedalmond;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+}
+
+#input-box , h2 , .block{
+    background: lightslategray;
+    border-radius: 10px;
+    color: black;
+    border: 10px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.267);
+}
+
+#input-box{
+    padding: 40px 25px;
+}
+
+input , button{
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+    width: 60%;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+button{
+    width: 30%;
+    float: right;
+    padding: 0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: bold;
+
+
+}
+button#button:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in 3ms;
+    
+}
+
+#result-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.block{
+    background: lightslategray;
+    width: 30%;
+    padding: 8.5px;
+    height:75px;
+    color: black;
+    font-weight: 500;
+
+}
